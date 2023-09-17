@@ -16,9 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/profile-pplg', function () {
-    return view('profile-pplg');
-});
 Route::get('/cv', function () {
     return view('cv');
 });
